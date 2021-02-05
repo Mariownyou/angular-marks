@@ -38,7 +38,7 @@ class DiaryBase:
                 "Сайт лежит или ведутся технические работы, использование api временно невозможно"
             )
 
-        return json_token["accessToken"]
+        return json_token["accessToken"], json_token
 
 
 diary = DiaryBase('kondratev_l', '11Leva11')
